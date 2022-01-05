@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section
+      class="main"
+      style="padding: 20px; padding-left: 20px; padding-right: 20px"
+    >
+      <!-----------Header--------------->
+      <div class="header" style="padding-left: 20px">
+        <div
+          class="grid-container-header"
+          style="display: grid; grid-template-columns: auto auto auto"
+        >
+          <div class="item-1">
+            <img
+              src="assets/images/logo.png"
+              alt="logo"
+              style="height: 150px"
+            />
+          </div>
+
+          <div
+            class="item-2"
+            style="display: grid; grid-template-rows: auto auto; justify-content: center;"
+          >
+            <div>
+              <p
+                class="heading"
+                style="
+                  font-family: Open Sans, sans-serif;
+                  font-size: 30px;
+                  
+                  color: #e30613;
+                  padding: 0;
+                "
+              >
+               <strong>CONTRAT</strong>  DE <strong>SOLUTION</strong>  DE <strong>SERVICE</strong> 
+            </p>
+            </div>
+            <div style="margin-left: 170px;">
+              <img src="assets/images/image1.png" alt="resaux" />
+            </div>
+          </div>
+
+          <!--Header table-->
+          <div class="item-3">
+            <div style="padding-top: 30px; padding-left: 30px; justify-content: end">
+              <table
+                style="
+                  border: 1px solid #e30613;
+                  font-family: sans-serif;
+                  font-weight: lighter;
+                  padding: 0;
+                "
+              >
+                <tr
+                  style="
+                    border: 2px solid #e30613;
+                    background-color: #e30613;
+                    height: 30px;
+                  "
+                >
+                  <th style="border: 2px solid #e30613; color: white">
+                    N° CLIENT
+                  </th>
+                  <th>
+                    <input type="text" style="height: 30px" />
+                  </th>
+                </tr>
+                <tr
+                  style="border: 2px solid #e30613; background-color: #e30613"
+                >
+                  <th style="border: 2px solid #e30613; color: white">
+                    N° CONTRAT
+                  </th>
+                  <th>
+                    <input type="text" style="height: 30px" />
+                  </th>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!------------Identification---------------->
+      <div style="padding-left: 30px; padding-right: 30px; padding-top: 30px">
+        <div class="identification" style="border: 2px solid black">
+          <div class="title" style="background-color: #e30613ff; padding: 0">
+            <h3
+              style="
+                margin: 0;
+                text-align: center;
+                color: white;
+                font-family: sans-serif;
+                font-weight: lighter;
+                padding: 5px;
+              "
+            >
+              IDENTIFICATION DU CLIENT ET ADRESSE D’ENVOI DES FACTURES :
+            </h3>
+          </div>
+
+          <div style="padding: 10px">
+            <div
+              class="grid-container-identification"
+              style="display: grid; grid-template-columns: auto auto"
+            >
+              <!--column 1-->
+              <div
+                class="identification-column"
+                style="font-family: sans-serif"
+              >
+                <div style="padding-bottom: 5px">
+                  <label
+                    >Raison Sociale :
+                    <input type="text" style="width: 70%" />
+                  </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <label
+                    >N° :
+                    <input type="text" style="width: 10%" />
+                  </label>
+                  <label
+                    >Rue :
+                    <input type="text" style="width: 65%" />
+                  </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <label
+                    >Code Postal :
+                    <input type="text" style="width: 15%" />
+                  </label>
+                  <label
+                    >Ville :
+                    <input type="text" style="width: 50%" />
+                  </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <label
+                    >Tél :
+                    <input type="text" style="width: 82%" />
+                  </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <label
+                    >Fax :
+                    <input type="text" style="width: 81%" />
+                  </label>
+                </div>
+              </div>
+
+              <!---column 2-->
+              <div
+                class="identification-column"
+                style="font-family: sans-serif"
+              >
+                <div style="padding-bottom: 5px">
+                  <label
+                    >RCS / SIREN :
+                    <input type="text" style="width: 72%" />
+                  </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <label
+                    >Mail :
+                    <input type="text" style="width: 85%" />
+                  </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <label
+                    >Contact :
+                    <input type="text" style="width: 80%" />
+                  </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <label
+                    >Mobile :
+                    <input type="text" style="width: 83%" />
+                  </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <label
+                    >Ligne directe :
+                    <input type="text" style="width: 75%" />
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!----------------Description---------->
+      <div style="padding-left: 30px; padding-right: 30px">
+        <div class="description" style="border: 2px solid black">
+          <div
+            class="grid-container-description"
+            style="
+              display: grid;
+              grid-template-columns: repeat(2, minmax(0, 1fr));
+              grid-auto-flow: column;
+            "
+          >
+            <div
+              class="title"
+              style="
+                background-color: #e30613ff;
+                padding: 0;
+                padding-left: 20px;
+              "
+            >
+              <h3
+                style="
+                  margin: 0;
+                  text-align: left;
+                  color: white;
+                  font-family: sans-serif;
+                  font-weight: lighter;
+                  padding: 5px;
+                "
+              >
+                DESCRIPTIF DE LA COMMANDE :
+              </h3>
+            </div>
+            <div
+              class="title"
+              style="
+                background-color: #e30613ff;
+                padding: 0;
+                padding-left: 40px;
+              "
+            >
+              <h3
+                style="
+                  margin: 0;
+                  text-align: left;
+                  color: white;
+                  font-family: sans-serif;
+                  font-weight: lighter;
+                  padding: 5px;
+                "
+              >
+                MONTANTS ET DURÉE DE LA LOCATION :
+              </h3>
+            </div>
+          </div>
+
+          <div style="padding: 10px">
+            <div
+              style="
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                grid-auto-flow: column;
+              "
+            >
+              <!--column 1-->
+              <div
+                class="description-column"
+                style="
+                  font-family: sans-serif;
+                  width: 100%;
+                  border-right: 2px solid gray;
+                "
+              >
+                <div style="padding-bottom: 20px">
+                  <input type="checkbox" />
+                  <label>LOCATION FINANCIÈRE </label>
+                  <input type="checkbox" style="margin-left: 60px" />
+                  <label>ACHAT </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <label>COMPOSANT PRINCIPAL : </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <input type="checkbox" />
+                  <label
+                    >Autocommutateur :
+                    <input type="text" style="width: 58%" />
+                  </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <input type="checkbox" />
+                  <label
+                    >Postes dédiés filaires :
+                    <input type="text" style="width: 54%" />
+                  </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <input type="checkbox" />
+                  <label
+                    >Postes simples :
+                    <input type="text" style="width: 60%" />
+                  </label>
+                </div>
+
+                <div style="padding-bottom: 5px">
+                  <input type="checkbox" />
+                  <label
+                    >Casque :
+                    <input type="text" style="width: 35%" />
+                  </label>
+                  <input type="checkbox" />
+                  <label
+                    >Borne :
+                    <input type="text" style="width: 20%" />
+                  </label>
+                </div>
+              </div>
+
+              <!---column 2-->
+              <div
+                class="description-column"
+                style="font-family: sans-serif; width: 100%"
+              >
+                <div
+                  style="margin-top: 20px; padding: 10px; padding-left: 30px"
+                >
+                  <input type="checkbox" />
+                  <label
+                    >TOTAL LOYER MENSUEL :
+                    <input type="text" style="width: 30%" />
+                    EUROS HT
+                  </label>
+                </div>
+                <div style="padding: 10px; padding-left: 30px">
+                  <input type="checkbox" />
+                  <label
+                    >TOTAL LOYER TRIMESTRIEL :
+                    <input type="text" style="width: 25%" />
+                    EUROS HT
+                  </label>
+                </div>
+                <div style="padding: 10px; padding-left: 30px">
+                  <input type="checkbox" />
+                  <label
+                    >DURÉE DU CONTRAT DE LOCATION :
+                    <input
+                      type="text"
+                      placeholder="63 mois"
+                      style="width: 38%"
+                    />
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!----------------Services------------->
+      <div style="padding-left: 30px; padding-right: 30px">
+        <div class="identification" style="border: 2px solid black">
+          <div class="title" style="background-color: #e30613ff; padding: 0">
+            <h3
+              style="
+                margin: 0;
+                text-align: center;
+                color: white;
+                font-family: sans-serif;
+                font-weight: lighter;
+                padding: 5px;
+              "
+            >
+              PRESTATION SERVICES, INSTALLATION ET MAINTENANCE :
+            </h3>
+          </div>
+
+          <div style="padding: 10px">
+            <div
+              style="
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                grid-auto-flow: column;
+              "
+            >
+              <!--column 1 services-->
+              <div
+                class="description-column"
+                style="font-family: sans-serif; width: 100%"
+              >
+                <div style="padding-bottom: 5px">
+                  <input type="checkbox" />
+                  <label>Référence (inclus)</label>
+                  <input type="checkbox" style="margin-left: 60px" />
+                  <label>Silver </label>
+                  <input type="checkbox" style="margin-left: 60px" />
+                  <label>Gold </label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <input type="checkbox" />
+                  <label>Coût de maintenance préventive mensuel:</label>
+                  <input type="text" style="width: 20%" /> euros HT
+                </div>
+                <div style="padding-bottom: 5px">
+                  <input type="checkbox" />
+                  <label>Prélèvement mensuel</label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <input type="checkbox" />
+                  <label>Service PASS annuel</label>
+                </div>
+              </div>
+
+              <!--column 2 services-->
+              <div
+                class="description-column"
+                style="
+                  font-family: sans-serif;
+                  width: 100%;
+                  padding-left: 60px;
+                  padding-top: 10px;
+                "
+              >
+                <div style="padding-bottom: 5px">
+                  <input type="checkbox" />
+                  <label>Sécurité (permanence téléphonique)</label>
+                </div>
+                <div style="padding-bottom: 5px">
+                  <input type="checkbox" />
+                  <label>Coût de maintenance annuel :</label>
+                  <input type="text" style="width: 20%" /> euros HT
+                </div>
+                <div style="padding-bottom: 5px">
+                  <input type="checkbox" />
+                  <label>Prélèvement annuel</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---------------Configuration----------->
+      <div style="padding-left: 30px; padding-right: 30px">
+        <div class="identification" style="border: 2px solid black">
+          <div class="title" style="background-color: #e30613ff; padding: 0">
+            <h3
+              style="
+                margin: 0;
+                text-align: center;
+                color: white;
+                font-family: sans-serif;
+                font-weight: lighter;
+                padding: 5px;
+              "
+            >
+              DESCRIPTIF CONFIGURATION ACTUELLE
+            </h3>
+          </div>
+
+          <div style="padding: 20px; font-family: sans-serif">
+            <div style="padding-bottom: 5px">
+              <label
+                >Nombre de SDA :
+                <input type="text" style="width: 20%" />
+              </label>
+              <label style="padding-left: 10px"
+                >Marque du PABX actuel :
+                <input type="text" style="width: 50%" />
+              </label>
+            </div>
+
+            <div style="padding-bottom: 10px; padding-top: 10px">
+              <label style="font-weight: bold"
+                >Fax : <input type="checkbox" /> oui
+                <input type="checkbox" /> non
+              </label>
+              <label style="padding-left: 70px; font-weight: bold"
+                >Alarme : <input type="checkbox" /> oui
+                <input type="checkbox" /> non
+              </label>
+              <label style="padding-left: 80px; font-weight: bold"
+                >TPE : <input type="checkbox" /> oui
+                <input type="checkbox" /> non
+              </label>
+              <label style="padding-left: 90px; font-weight: bold"
+                >Machine à affranchir : <input type="checkbox" /> oui
+                <input type="checkbox" /> non
+              </label>
+            </div>
+
+            <div style="padding-bottom: 10px; padding-top: 10px">
+              <label style="color: red">POUR LES HÔTELS UNIQUEMENT :</label>
+              <label> Nombre de postes dans les chambres</label>
+              <label style="margin-left: 15%"
+                >Taxation : <input type="checkbox" /> oui
+                <input type="checkbox" /> non
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---------------Observations------------>
+      <div style="padding-left: 30px; padding-right: 30px">
+        <div class="identification" style="border: 2px solid black">
+          <div class="title" style="background-color: #e30613ff; padding: 0">
+            <h3
+              style="
+                margin: 0;
+                text-align: center;
+                color: white;
+                font-family: sans-serif;
+                font-weight: lighter;
+                padding: 5px;
+              "
+            >
+              OBSERVATION PARTICULIÈRES :
+            </h3>
+          </div>
+
+          <input
+            type="text"
+            style="
+              border: 0;
+              width: 99.4%;
+              height: 120px;
+              background-color: #e5e5e5;
+            "
+          />
+        </div>
+      </div>
+
+      <!---------------Signature---------------->
+      <div style="padding-left: 30px; padding-right: 30px">
+        <div class="identification" style="border: 2px solid black">
+          <div class="title" style="background-color: #e30613ff; padding: 0">
+            <h3
+              style="
+                margin: 0;
+                text-align: center;
+                color: white;
+                font-family: sans-serif;
+                font-weight: lighter;
+                padding: 5px;
+              "
+            >
+              SIGNATURE DU CLIENT :
+            </h3>
+          </div>
+
+          <div
+            style="
+              font-family: sans-serif;
+              font-size: 15px;
+              padding: 20px;
+              padding-left: 40px;
+              padding-right: 40px;
+            "
+          >
+            <p style="margin: 0">Le Client déclare expressément :</p>
+            <p style="margin: 0">
+              1 - Avoir pris connaissance des conditions générales du présent
+              contrat figurant au verso et sur le portail client à l’adresse : «
+              https://reseaux-plus.fr ».
+            </p>
+            <p style="margin: 0">
+              2 - Que le présent contrat entre dans le champ de son activité principale.
+            </p>
+            <p style="margin: 0">
+              Attribution de compétence : Les Parties attribuent compétence au
+              Tribunal de Commerce de Bobiny pour tout litige lié à la validité,
+              l’interprétation ou l’exécution des présentes;
+            </p>
+          </div>
+
+          <div style="padding: 20px;padding-left: 40px; font-family: sans-serif">
+            <div style="padding-bottom: 20px">
+              <label
+                >NOM :
+                <input type="text" style="width: 60%" />
+              </label>
+            </div>
+
+            <div style="padding-bottom: 20px">
+              <label
+                >QUALITÉ :
+                <input type="text" style="width: 57.4%" />
+              </label>
+            </div>
+
+            <div style="padding-bottom: 20px">
+              <label
+                >SIGNATURE
+                <input type="text" style="width: 56%; height: 100px;" />
+              </label>
+              <label style="margin-left: 40px;"
+                >DATE :
+                <input type="text" style="width: 15%;  " />
+              </label>
+            </div>
+        </div>
+      </div>
+
+      <!-------------Footer--------------->
+      <div style="border-bottom: 1px solid #000;">
+        <div style="display: grid; grid-template-columns: auto auto auto;">
+          <div style="color: grey; font-family: sans-serif; font-size: 8px; font-weight: bold; padding-top: 30px;padding-bottom: 30px;">
+            EX. BLANC : ADMINISTRATION DES VENTES <br>
+            EX. JAUNE : CLIENT
+          </div>
+
+          <div style="padding-top: 40px;padding-bottom: 10px; font-family: sans-serif; font-size: 12px; text-align: center;">
+            8, rue de Valmy  &#160-&#160 93100 Montreuil  &#160-&#160 93100 Tél : 01 48 51 02 07  &#160-&#160 93100 email : contact@reseaux-plus.fr &#160-&#160 93100 SARL au capital de 20.000 €uros <br> <br>
+            RCS BOBIGNY 750 602 856 &#160-&#160 93100 Code : 4651 Z N° T.V.A. &#160-&#160 93100 FR 43 750 602 856 &#160-&#160 93100 www.reseaux-plus.fr
+          </div>
+
+          <div style="color: grey; font-family: sans-serif; font-size: 8px; font-weight: bold; padding-top: 30px;padding-bottom: 30px; text-align: end;">
+            *COCHER L’OPTION CHOISIE
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
